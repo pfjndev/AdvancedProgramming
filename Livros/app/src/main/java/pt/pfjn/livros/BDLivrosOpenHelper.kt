@@ -11,12 +11,18 @@ class BDLivrosOpenHelper(
     factory: SQLiteDatabase.CursorFactory?,
     version: Int
 ) : SQLiteOpenHelper(context, name, factory, version) {
-
-    override fun onCreate(p0: SQLiteDatabase?) {
+    /**
+     * Called when the database is created for the first time
+     *
+     *
+     * @param db The database.
+     */
+    override fun onCreate(db: SQLiteDatabase) {
         TODO("Not yet implemented")
+
     }
 
-    override fun onUpgrade(p0: SQLiteDatabase?, p1: Int, p2: Int) {
+    override fun onUpgrade(db: SQLiteDatabase, p1: Int, p2: Int) {
         TODO("Not yet implemented")
     }
 }
