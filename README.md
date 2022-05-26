@@ -16,4 +16,4 @@
 
 #Author: PfJn
 #Class: Advanced Programming
-#School: Politécnico Guarda
+#School: Polithecnic of Guarda
