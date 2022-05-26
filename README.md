@@ -15,5 +15,5 @@
   ### Search vaccines by deseases
 
 #Author: PfJn
-#Class: Programação Avançada
+#Class: Advanced Programming
 #School: Politécnico Guarda
