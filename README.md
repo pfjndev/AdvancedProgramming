@@ -12,7 +12,7 @@
 
 ## Repository for an app that lets you:
   ### Search vaccines by ages
-  ### Search vaccines by deseases
+  ### Search vaccines by diseases
 
 #Author: PfJn
 #Class: Advanced Programming
