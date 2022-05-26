@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE435968-5FF2-E4F4-28ED-75C9A5F76D9B" name="Vaccines">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>CF335F19-6BB9-6E80-4D5B-12F2F8823ED2</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="77688343-B148-C1D8-3FB4-CB56DFEDCCD1">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>CAA4027C-ABD9-0EFF-ABF0-DA355D5CE46B</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E17CC4E1-C213-9EAD-805C-0D1887C31950">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>87AAF744-E4D1-EA82-824B-3F5F5257647F</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="warnings" id="4F44CD49-8A47-E273-ED0C-EFA422FAEA73">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>111A8000-07EA-3C40-BEDA-8B201033993E</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1512 CHAR</dataTypeSize>
+<ownDataTypeParameters>1512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="B3BD0BCF-D66C-EA7C-9082-63C033B23C2E">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>CBAB6B17-6E9C-285A-6F01-D446035B68E0</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1512 CHAR</dataTypeSize>
+<ownDataTypeParameters>1512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expiry_date" id="E9831653-7F38-E765-D1E6-EE194BD5BC80">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>CAA8F934-B625-38A5-811C-CBCABC53EB96</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="age_of_vaccination" id="F1C36ED6-537C-504B-665D-9CA615F10D78">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>A4349967-B2DE-59B4-56C1-318743C33338</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="possible_side_effects" id="691810FA-8CA4-4592-7DC8-C7BA8726BA8B">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>9789269F-036B-575B-1527-07174FF30EEC</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1512 CHAR</dataTypeSize>
+<ownDataTypeParameters>1512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BA414D2-5512-E9E4-528A-F477B8D208AF" name="Vaccines_PK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>8770C404-A4F4-684E-91D9-B01FED903257</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77688343-B148-C1D8-3FB4-CB56DFEDCCD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C8D29A1A-3E48-1DEB-5E9C-4A33183A97DF" containerWithKeyObject="1F39948A-F3A0-A0D5-252C-64A053551E7B" localFKIndex="75AD353C-8312-2694-972B-C3FEF8BC4371" name="group_Vaccines_FK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 11:08:56 UTC</createdTime>
+<generatorID>75B4BD3B-12A8-48AD-2E63-B71DD54E449F</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<referredTableLongName>Vaccines</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE435968-5FF2-E4F4-28ED-75C9A5F76D9B</referredTableID>
+<keyObject>0BA414D2-5512-E9E4-528A-F477B8D208AF</keyObject>
+<referredKeyID>0BA414D2-5512-E9E4-528A-F477B8D208AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

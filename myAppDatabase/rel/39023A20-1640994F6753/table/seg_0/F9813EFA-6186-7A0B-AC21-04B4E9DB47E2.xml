@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9813EFA-6186-7A0B-AC21-04B4E9DB47E2" name="vaccine">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Diseases_id" id="B5E64AD7-D0B4-5A37-E378-480BB3D42FC5">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1EEE8E5-D920-9A0E-3E71-BCFC71D21E8E" referredColumn="5D3ED104-4053-74C3-1A7C-C43A1CA5780D"/>
+</associations>
+</Column>
+<Column name="Vaccines_id" id="5C2BABD7-D315-8868-519F-FA3FE679358D">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D25D4BA-EF9F-32B8-D9CA-43CFBCBAC1BA" referredColumn="77688343-B148-C1D8-3FB4-CB56DFEDCCD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FC84AC3-BB9E-BB15-D8D3-0882805311FF" name="vaccine_PK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5E64AD7-D0B4-5A37-E378-480BB3D42FC5"/>
+<colUsage columnID="5C2BABD7-D315-8868-519F-FA3FE679358D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B1D985D-88A6-9C7E-92C1-29DC8183AF95" name="vaccine_Diseases_FK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>8C23F74C-1850-59B9-3EA9-7CA1E6B1E4A3</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5E64AD7-D0B4-5A37-E378-480BB3D42FC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CA099C0-24D8-789B-B825-00E22848C83C" name="vaccine_Vaccines_FK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>8C23F74C-1850-59B9-3EA9-7CA1E6B1E4A3</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C2BABD7-D315-8868-519F-FA3FE679358D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

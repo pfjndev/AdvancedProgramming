@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="669C46E3-7EB5-505D-F42B-2B204148938E" name="Groups">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:58:25 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="4959799F-2DD5-81E8-7F3A-C3B79E93A131">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:58:31 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="0F650721-C089-13F0-9E75-0CDD795F4AC1">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:58:39 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="0C02F4DE-8DC0-2304-5BFB-8FCE06313BC9">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:59:19 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1512 CHAR</dataTypeSize>
+<ownDataTypeParameters>1512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="006C9161-4508-F40D-F0DD-9D8A5DEA22AF" name="Groups PK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:58:37 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4959799F-2DD5-81E8-7F3A-C3B79E93A131</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

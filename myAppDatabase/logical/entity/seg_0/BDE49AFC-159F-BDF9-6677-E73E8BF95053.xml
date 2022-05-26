@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BDE49AFC-159F-BDF9-6677-E73E8BF95053" name="Risk_Groups">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:38:47 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="17B6F138-B6FA-A991-4DBD-E5FD64D5E506">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:39:34 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="1DB2BDDD-2C05-66E1-B5EF-2CF58636C48C">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:39:46 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="warnings" id="90E490B6-E266-F30E-B440-D10DE414D529">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:40:00 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1512 CHAR</dataTypeSize>
+<ownDataTypeParameters>1512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="86A8678A-C85C-E75D-E1FD-CDE6B7A48D6F">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:40:24 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1512 CHAR</dataTypeSize>
+<ownDataTypeParameters>1512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D8C1DCE-6572-92FC-B1B0-D843C9629692" name="Risk_Groups PK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:39:42 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17B6F138-B6FA-A991-4DBD-E5FD64D5E506</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vaccine" directorySegmentName="seg_0" id="8C23F74C-1850-59B9-3EA9-7CA1E6B1E4A3">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:42:07 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<engineerTo>
+<item key="39023A20-BA5B-2A54-7157-1640994F6753" value="true"/>
+</engineerTo>
+<sourcePk>F50B6442-31C7-E8B4-52F2-B9D8C3A0FA69</sourcePk>
+<targetPk>8770C404-A4F4-684E-91D9-B01FED903257</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AEE54149-8936-5DDE-76E7-43D1CC55AE75</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF335F19-6BB9-6E80-4D5B-12F2F8823ED2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

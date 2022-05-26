@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F39948A-F3A0-A0D5-252C-64A053551E7B" name="group">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 11:08:56 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Groups_id" id="18A082BC-A9B2-1FD3-7D49-0EE01164DBD1">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 11:08:56 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA743410-FB3D-1CCC-EACD-35DD2C435A53" referredColumn="897EE7A0-D1B9-70A8-0AA3-FF9E8A79775F"/>
+</associations>
+</Column>
+<Column name="Vaccines_id" id="FFCD59BC-2203-A159-822C-3B53810DE8C7">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 11:08:56 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8D29A1A-3E48-1DEB-5E9C-4A33183A97DF" referredColumn="77688343-B148-C1D8-3FB4-CB56DFEDCCD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7E14A5B-9A5E-3D2B-8A16-CE72497DED62" name="group_PK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 11:08:56 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18A082BC-A9B2-1FD3-7D49-0EE01164DBD1"/>
+<colUsage columnID="FFCD59BC-2203-A159-822C-3B53810DE8C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37ED7544-893F-1FEC-6DEE-49694D662FDD" name="group_Groups_FK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 11:08:56 UTC</createdTime>
+<generatorID>75B4BD3B-12A8-48AD-2E63-B71DD54E449F</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18A082BC-A9B2-1FD3-7D49-0EE01164DBD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75AD353C-8312-2694-972B-C3FEF8BC4371" name="group_Vaccines_FK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 11:08:56 UTC</createdTime>
+<generatorID>75B4BD3B-12A8-48AD-2E63-B71DD54E449F</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFCD59BC-2203-A159-822C-3B53810DE8C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

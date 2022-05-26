@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40AD2825-65BA-2F65-308B-90459B1E50B3" name="Diseases">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>AEE54149-8936-5DDE-76E7-43D1CC55AE75</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5D3ED104-4053-74C3-1A7C-C43A1CA5780D">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>B8C7FBCC-AB92-AF9F-D53B-A8452BB6F2F1</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="7939EFAE-D91C-18A1-87E0-B4307BCC769E">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>3036CD9A-A7FA-3D8B-08AD-922EB9F5472D</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="98BB1B26-3E21-25E6-5AB2-373A354F13E4">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>74CE77B9-0169-C82A-01B6-402A6C87557F</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1512 CHAR</dataTypeSize>
+<ownDataTypeParameters>1512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vaccination_howTo" id="6A52C093-B1B7-DA0D-8A1E-8124E80874C3">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>307A025B-070D-2102-65E3-0A749FD60829</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1512 CHAR</dataTypeSize>
+<ownDataTypeParameters>1512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="730704ED-E6FD-0C72-423B-520E0F88F07E" name="Diseases_PK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:51:33 UTC</createdTime>
+<generatorID>F50B6442-31C7-E8B4-52F2-B9D8C3A0FA69</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D3ED104-4053-74C3-1A7C-C43A1CA5780D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

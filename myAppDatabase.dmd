@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="myAppDatabase" id="136F706E-1E59-DE66-5B6F-6356AE78C93A" version="3.5">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 10:05:42 UTC</createdTime>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>136F706E-1E59-DE66-5B6F-6356AE78C93A</designId>
+</OSDM_Design>

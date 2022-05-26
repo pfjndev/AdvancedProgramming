@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5B8DE46-FB5C-5791-162C-5F5D86503060" containerWithKeyObject="D5FB516B-1872-8FE1-391D-7C197ECADC24" localFKIndex="A99381FF-54EF-7707-11A1-A54D6BF96166" name="risk_group_Risk_Groups_FK">
+<createdBy>pfjn</createdBy>
+<createdTime>2022-05-26 11:08:56 UTC</createdTime>
+<generatorID>042CC132-2A6C-3EE3-F442-A1C13EA3195B</generatorID>
+<ownerDesignName>myAppDatabase</ownerDesignName>
+<referredTableLongName>Risk_Groups</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8CD07049-C7C2-6899-425F-4461B60F88A7</referredTableID>
+<keyObject>65065496-1FBF-F620-9250-F241565B9375</keyObject>
+<referredKeyID>65065496-1FBF-F620-9250-F241565B9375</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
