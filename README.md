@@ -44,11 +44,11 @@
 </blockquote> <br></br>
 
 
-### <em> Escola: [Polithecnic of Guarda]( https://politecnicoguarda.pt ) </em> <br></br>
+### <em> School: [Polithecnic of Guarda]( https://politecnicoguarda.pt ) </em> <br></br>
 
-### <em> Curso: [Computer Engineering](https://cloud.sysnovare.pt/ipg/planos_estudos_geral.formview?p_Pe=55) </em> <br></br>
+### <em> Course: [Computer Engineering](https://cloud.sysnovare.pt/ipg/planos_estudos_geral.formview?p_Pe=55) </em> <br></br>
 
-### <em> Disciplina: [Advanced Programming](https://cloud.sysnovare.pt/ipg/disciplinas_geral.formview?p_cad_codigo=UINF1069&pv_periodo_pe=2S&p_ano_lectivo=2021 ) </em> <br></br>
+### <em> Class: [Advanced Programming](https://cloud.sysnovare.pt/ipg/disciplinas_geral.formview?p_cad_codigo=UINF1069&pv_periodo_pe=2S&p_ano_lectivo=2021 ) </em> <br></br>
 
 
 ### <strong> <em>Author: [PfJn](https://github.com/pfjndev)</em> </strong>
